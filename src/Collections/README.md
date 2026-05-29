@@ -322,7 +322,8 @@ Collections.max(nums);          // 5
 Collections.min(nums);          // 1
 Collections.frequency(nums, 1); // 2 — count of value 1
 ```
-## STEP 8. CONVERTING BETWEEN ARRAY AND ARRAYLIST
+
+## STEP 9. CONVERTING BETWEEN ARRAY AND ARRAYLIST
 ```
 // Array → ArrayList
 String[] arr = {"Alice", "Bob", "Charlie"};
@@ -331,7 +332,7 @@ ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));  // ✅
 // ArrayList → Array
 String[] back = list.toArray(new String[0]);  // ✅
 ```
-## STEP 9. CHOOSING THE RIGHT COLLECTION
+## STEP 10. CHOOSING THE RIGHT COLLECTION
 - Need ordered list with duplicates?     → ArrayList
 - Need key-value lookup?                 → HashMap
 - Need unique values only?               → HashSet
